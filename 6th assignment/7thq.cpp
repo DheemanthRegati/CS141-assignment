@@ -20,7 +20,7 @@ int main()
                     break;
                     }        
     }
-    if (i!=100){cout<<"same";}
+    if (i!=100){cout<<"same"<<endl;}
     while(s1[d]!='l')//checking letter in string
     {
                    d++;
@@ -36,10 +36,10 @@ int main()
                   }
           if(e!=1){break;}  
             }
-    if(e==1){cout<<"not present";}
-    else{cout<<"string present at "<<(i+1);}
-    cout<<c;
-    cout<<(d+1);
+    if(e==1){cout<<"not present"<<endl;}
+    else{cout<<"string present at "<<(i+1)<<endl;}
+    cout<<c<<endl;
+    cout<<(d+1)<<endl;
     cout<<s2<<endl<<s1;
     
     cin>>a;
