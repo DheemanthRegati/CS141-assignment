@@ -32,12 +32,6 @@ class ZooAnimal
 
 };
 
-
-
-//QUESTION 5 - PART 2
-
-
-
 void ZooAnimal::Create(char *n, int cN, int wDt, int W) {
 
     name = n;
@@ -100,11 +94,11 @@ int main()
 
 {
 
-    ZooAnimal bozo;
+    ZooAnimal animal;
 
-    bozo.Create("Bozo", 408, 1027, 400);
+    animal.Create("zebra", 408, 1027, 400);
 
-    cout << "This animal's name is " << bozo.reptName() << endl;
+    cout << "This animal's name is " << animal.reptName() << endl;
 
     return 0;
 
