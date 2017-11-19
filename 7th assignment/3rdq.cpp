@@ -30,7 +30,7 @@ double Rectangle::perimeter(double l,double b)
 
 { 
 
-  return l+b;
+  return 2*(l+b);
 
 }
 
